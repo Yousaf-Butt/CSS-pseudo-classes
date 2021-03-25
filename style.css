@@ -1,0 +1,51 @@
+.link1:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+.link2:active {
+  color: red;
+  font-style: italic;
+}
+
+.link3:visited {
+  color: yellow;
+}
+
+.input1:focus {
+  color: green;
+  font-size: 20px;
+}
+
+ul {
+  padding: 0;
+  display: inline-block;
+  background-color: darkblue;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+}
+
+ul li:first-child {
+  padding-left: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.currentPage {
+  background-color: slategrey;
+}
+
+li:hover {
+  background-color: lightblue;
+}
+
+.searchbar:focus {
+  border: solid 5px aqua;
+}
